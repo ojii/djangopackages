@@ -73,7 +73,7 @@ function package_form(data){
 		$.each(REPLACEMENTS, function(key, value){
 			$.each(value, function(index, prefix){
 				if (url.starts_with(prefix)){
-					url = key + url.slice(prefix.length);s
+					url = key + url.slice(prefix.length);
 				}
 			}
 		});
